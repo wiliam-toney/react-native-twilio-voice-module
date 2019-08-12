@@ -1,36 +1,30 @@
 {
   "name": "react-native-twilio-voice-module",
-  "title": "React Native Twilio Voice Module",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Twilio programmable voice module for react native",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-twilio-voice-module.git",
-    "baseUrl": "https://github.com/github_account/react-native-twilio-voice-module"
+    "url": "git+https://github.com/danielsGit/react-native-twilio-voice-module.git"
   },
   "keywords": [
-    "react-native",
+    "react",
+    "native",
     "twilio",
+    "programmable",
     "voice",
-    "module",
+    "module"
   ],
-  "author": {
-    "name": "danielsGit",
-    "email": "daniels1983@mail.com"
-  },
+  "author": "HaiLin Yin",
   "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": "^16.5.0",
-    "react-native": "^0.59.4"
+  "bugs": {
+    "url": "https://github.com/danielsGit/react-native-twilio-voice-module/issues"
   },
-  "devDependencies": {
-    "react": "^16.5.0",
-    "react-native": "^0.59.4"
-  }
+  "homepage": "https://github.com/danielsGit/react-native-twilio-voice-module#readme"
 }
