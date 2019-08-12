@@ -94,13 +94,8 @@ export default class App extends Component<{}> {
       if (this.state.userName) {
 
         TwilioVoiceModule.connect({
-          To: '+16504168271',
-          From: Platform.OS === 'ios' ? '+16238062048' : '+14157460761',
-          CVId: '123',
-          CMId: '456',
-          Identity: 'abcde',
-          IVRCode: '12345',
-          NeedStr: 'Hello everybody'
+          To: '+123456789',
+          From: '+987654321',
         });
 
       } else {
