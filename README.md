@@ -180,3 +180,6 @@ TwilioVoiceModule.sendDigits('12345'); // send IVR digits
 ## License
 
 MIT
+
+## Buy me a coffee
+[Paypal](https://www.paypal.me/hailinyin/2)
