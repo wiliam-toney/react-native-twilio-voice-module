@@ -1,8 +1,11 @@
 # react-native-twilio-voice-module
+This is twilio programmable voice module for react native that makes you allow to make inbound / outbound calls.
+This is working with version 4.1.0 of twilio native ios / android sdks. (Version 2.x and 3.x will be deprecated at the end of 2019.)
 
 ## Getting started
 
 `$ npm install react-native-twilio-voice-module --save`
+`$ yarn add react-native-twilio-voice-module`
 
 ### Mostly automatic installation
 
@@ -35,9 +38,16 @@
 
 
 ## Usage
+You will be required to follow [iOS Quickstart step 2 ~ step 9](https://github.com/twilio/voice-quickstart-objc#2-create-a-voice-api-key)
+and [Android Quickstart step 2 ~ step 9](https://github.com/twilio/voice-quickstart-android#2-create-a-voice-api-key) to gain access token and
+to receive call invite.
+After you have followed the above steps, you can init TwilioVoiceModule with access token to make a call.
 ```javascript
 import TwilioVoiceModule from 'react-native-twilio-voice-module';
 
 // TODO: What to do with the module?
-TwilioVoiceModule;
+TwilioVoiceModule.initWithToken(token).then(res => {
+  // true if initialized,
+  // false if something went wrong
+});
 ```
