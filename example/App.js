@@ -12,6 +12,7 @@ import React, { Component } from 'react';
 import { Alert, Platform, StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import TwilioVoiceModule from 'react-native-twilio-voice-module';
 
+const accessTokenUrl = '';
 export default class App extends Component<{}> {
   constructor(props) {
     super(props);
@@ -128,7 +129,7 @@ export default class App extends Component<{}> {
 
   _initTwilio = async () => {
     const fetchTokenApi =
-      await fetch(`http://stepintocity-server.herokuapp.com/twilio/testAccessToken?identity=${this.state.userName}&platform=${Platform.OS}`)
+      await fetch(accessTokenUrl);
     const fetchTokenJson = await fetchTokenApi.json()
     TwilioVoiceModule.initWithToken(fetchTokenJson.data).then(res => {
       console.log(res);

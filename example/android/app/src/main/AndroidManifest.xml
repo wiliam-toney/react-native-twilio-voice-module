@@ -23,7 +23,7 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-      <service android:name="com.reactlibrary.fcm.VoiceCallFCMService">
+      <service android:name="com.twiliovoicemodule.fcm.VoiceCallFCMService">
           <intent-filter>
               <action android:name="com.google.firebase.MESSAGING_EVENT"/>
           </intent-filter>
