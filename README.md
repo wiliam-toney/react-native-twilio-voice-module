@@ -150,14 +150,14 @@ callIncomingCancelled = (cancelledCall) => {
 To disconnect call, just call `TwilioVoiceModule.disconnect()`
 
 ### Android ProGuard Rules
-    ```
+  ```
     # Twilio Programmable Voice
     -keep class com.twilio.** { *; }
     -keep class tvo.webrtc.** { *; }
     -dontwarn tvo.webrtc.**
     -keep class com.twilio.voice.** { *; }
     -keepattributes InnerClasses
-    ```
+  ```
 
 ### Other APIs that you may need.
 ```javascript
@@ -175,6 +175,9 @@ TwilioVoiceModule.sendDigits('12345'); // send IVR digits
 
 ```
 
+## Buy me a coffee
+[Paypal](https://www.paypal.me/hailinyin/2)
+
 ## Twilio Voice SDK reference
 
 [iOS changelog](https://www.twilio.com/docs/api/voice-sdk/ios/changelog)
@@ -190,6 +193,3 @@ TwilioVoiceModule.sendDigits('12345'); // send IVR digits
 ## License
 
 MIT
-
-## Buy me a coffee
-[Paypal](https://www.paypal.me/hailinyin/2)

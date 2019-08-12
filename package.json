@@ -1,6 +1,6 @@
 {
   "name": "react-native-twilio-voice-module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Twilio programmable voice module for react native",
   "main": "index.js",
   "directories": {
