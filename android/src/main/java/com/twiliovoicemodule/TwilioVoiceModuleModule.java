@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.twiliovoicemodule;
 
 import android.Manifest;
 import android.content.BroadcastReceiver;
@@ -52,9 +52,9 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import static com.reactlibrary.fcm.VoiceCallFCMService.ACTION_FCM_TOKEN_REFRESHED;
-import static com.reactlibrary.fcm.VoiceCallFCMService.ACTION_INCOMING_CALL;
-import static com.reactlibrary.fcm.VoiceCallFCMService.ACTION_INCOMING_CALL_CANCELLED;
+import static com.twiliovoicemodule.fcm.VoiceCallFCMService.ACTION_FCM_TOKEN_REFRESHED;
+import static com.twiliovoicemodule.fcm.VoiceCallFCMService.ACTION_INCOMING_CALL;
+import static com.twiliovoicemodule.fcm.VoiceCallFCMService.ACTION_INCOMING_CALL_CANCELLED;
 
 public class TwilioVoiceModuleModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
     private final ReactApplicationContext reactContext;

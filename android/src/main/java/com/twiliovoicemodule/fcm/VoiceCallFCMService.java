@@ -1,4 +1,4 @@
-package com.reactlibrary.fcm;
+package com.twiliovoicemodule.fcm;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;

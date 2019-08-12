@@ -149,6 +149,16 @@ callIncomingCancelled = (cancelledCall) => {
 
 To disconnect call, just call `TwilioVoiceModule.disconnect()`
 
+### Android ProGuard Rules
+    ```
+    # Twilio Programmable Voice
+    -keep class com.twilio.** { *; }
+    -keep class tvo.webrtc.** { *; }
+    -dontwarn tvo.webrtc.**
+    -keep class com.twilio.voice.** { *; }
+    -keepattributes InnerClasses
+    ```
+
 ### Other APIs that you may need.
 ```javascript
 TwilioVoiceModule.getVersion((version) => {

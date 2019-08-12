@@ -96,7 +96,7 @@ export default class App extends Component<{}> {
 
         TwilioVoiceModule.connect({
           To: '+123456789',
-          From: '+987654321',
+          From: '+987654321'
         });
 
       } else {
@@ -128,9 +128,8 @@ export default class App extends Component<{}> {
   }
 
   _initTwilio = async () => {
-    const fetchTokenApi =
-      await fetch(accessTokenUrl);
-    const fetchTokenJson = await fetchTokenApi.json()
+    const fetchTokenApi = await fetch(accessTokenUrl);
+    const fetchTokenJson = await fetchTokenApi.json();
     TwilioVoiceModule.initWithToken(fetchTokenJson.data).then(res => {
       console.log(res);
     });

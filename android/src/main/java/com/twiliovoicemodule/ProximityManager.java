@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.twiliovoicemodule;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

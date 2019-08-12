@@ -1,6 +1,6 @@
 {
   "name": "react-native-twilio-voice-module",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "Twilio programmable voice module for react native",
   "main": "index.js",
   "directories": {
@@ -21,7 +21,10 @@
     "voice",
     "module"
   ],
-  "author": "HaiLin Yin",
+  "author": {
+    "username": "hailin_yin",
+    "name": "HaiLin Yin"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/danielsGit/react-native-twilio-voice-module/issues"
