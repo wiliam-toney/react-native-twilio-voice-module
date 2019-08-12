@@ -40,10 +40,6 @@ This is working with version 4.1.0 of twilio native ios / android sdks. (Version
 ## Permissions
 1. For iOS, you have to add Microphone usage description in info.plist.
 
-  `<key>NSMicrophoneUsageDescription</key>
-
-	 <string>Description here</string>`
-
 2. For Android, open AndroidManifest.xml file and add the following permissions.
 
 `<uses-permission android:name="android.permission.RECORD_AUDIO" />`
@@ -54,11 +50,7 @@ This is working with version 4.1.0 of twilio native ios / android sdks. (Version
 
 Next under `<application>` tag, add the firebase messaging service
 
-`<application>
-
-  ...
-
-  <service android:name="com.twiliovoicemodule.fcm.VoiceCallFCMService">
+`` <service android:name="com.twiliovoicemodule.fcm.VoiceCallFCMService">
 
           <intent-filter>
 
@@ -66,9 +58,8 @@ Next under `<application>` tag, add the firebase messaging service
 
           </intent-filter>
 
-      </service>
-
-</application>`
+    </service>
+``
 
 ## Usage
 You will be required to follow [iOS Quickstart step 2 ~ step 9](https://github.com/twilio/voice-quickstart-objc#2-create-a-voice-api-key)
