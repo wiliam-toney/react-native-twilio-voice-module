@@ -161,4 +161,22 @@ TwilioVoiceModule.setMuted(true); // mute the sound
 
 TwilioVoiceModule.setSpeakerPhone(true); // set the speaker on.
 
+TwilioVoiceModule.sendDigits('12345'); // send IVR digits
+
 ```
+
+## Twilio Voice SDK reference
+
+[iOS changelog](https://www.twilio.com/docs/api/voice-sdk/ios/changelog)
+
+[Android changelog](https://www.twilio.com/docs/api/voice-sdk/android/changelog)
+
+## Credits
+
+[voice-quickstart-android](https://github.com/twilio/voice-quickstart-android)
+
+[voice-quickstart-objc](https://github.com/twilio/voice-quickstart-objc)
+
+## License
+
+MIT
