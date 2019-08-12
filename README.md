@@ -50,7 +50,7 @@ This is working with version 4.1.0 of twilio native ios / android sdks. (Version
 
 Next under `<application>` tag, add the firebase messaging service
 
-`` <service android:name="com.twiliovoicemodule.fcm.VoiceCallFCMService">
+``` <service android:name="com.twiliovoicemodule.fcm.VoiceCallFCMService">
 
           <intent-filter>
 
@@ -59,7 +59,7 @@ Next under `<application>` tag, add the firebase messaging service
           </intent-filter>
 
     </service>
-``
+```
 
 ## Usage
 You will be required to follow [iOS Quickstart step 2 ~ step 9](https://github.com/twilio/voice-quickstart-objc#2-create-a-voice-api-key)
