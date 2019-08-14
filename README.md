@@ -175,9 +175,6 @@ TwilioVoiceModule.sendDigits('12345'); // send IVR digits
 
 ```
 
-## Buy me a coffee
-[Paypal](https://www.paypal.me/hailinyin/2)
-
 ## Twilio Voice SDK reference
 
 [iOS changelog](https://www.twilio.com/docs/api/voice-sdk/ios/changelog)
