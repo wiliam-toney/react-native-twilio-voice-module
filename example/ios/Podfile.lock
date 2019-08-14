@@ -23,7 +23,7 @@ PODS:
   - glog (0.3.5)
   - React (0.59.4):
     - React/Core (= 0.59.4)
-  - react-native-twilio-voice-module (1.0.1):
+  - react-native-twilio-voice-module (1.0.10):
     - AFNetworking (~> 3.0)
     - React
     - TwilioVoice (~> 4.1)
@@ -138,7 +138,7 @@ SPEC CHECKSUMS:
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   React: 5cb71fb1a15b5ce04794ab49e24b48ebe4c94e65
-  react-native-twilio-voice-module: 16c9f1d1dd4bf1a4043daa5aa7e8850feed34202
+  react-native-twilio-voice-module: df4104ab7f50ef3817f9c2c0f59418038c653a2c
   TwilioVoice: f02ca9098bd746c9eeb4b9888998aa74cd17f3b8
   yoga: 596e61c9b57751d08a22b07aba310dbd3e65ab75
 

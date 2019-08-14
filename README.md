@@ -79,7 +79,7 @@ Here are supported event listeners:
 9. `callIncoming` - A call is incoming to your device
 10. `callIncomingCancelled` - A incoming call is cancelled
 
-You should add these event listeners before you intialize TwilioVoiceModule with access token.
+You should add these event listeners before you initialize TwilioVoiceModule with access token.
 
 ```javascript
 import TwilioVoiceModule from 'react-native-twilio-voice-module';

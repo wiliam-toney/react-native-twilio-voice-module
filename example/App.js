@@ -96,7 +96,7 @@ export default class App extends Component<{}> {
 
         TwilioVoiceModule.connect({
           To: '+123456789',
-          From: '+987654321'
+          From: '+987654321',
         });
 
       } else {
